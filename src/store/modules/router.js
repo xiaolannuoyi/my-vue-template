@@ -3,17 +3,11 @@ import { asyncRouterMap, commontRouterMap } from "@/router";
 
 function hasPermission(roles, route) {
   if (route.meta && route.meta.role) {
-    console.log('route.meta.role.includes(roles)', route.meta.role.includes(roles));
-
     return route.meta.role.includes(roles)
   } else {
     return true
   }
 }
-
-// if (route.hidde) {
-//   route.hidden = route.hidden.includes(roles) ? true : false;
-// }
 
 /**
  * Filter asynchronous routing tables by recursion
