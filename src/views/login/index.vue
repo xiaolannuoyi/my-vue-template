@@ -35,21 +35,20 @@
           type="primary"
           style="width:100%;"
           @click.native.prevent="handleLogin"
-          >Sign in</el-button
-        >
+        >Sign in</el-button>
       </el-form-item>
       <div>
-        <span >username: admin</span>
-        <span >password: admin</span>
+        <span>username: admin</span>
+        <span>password: admin</span>
         <span>role :0</span>
       </div>
-       <div>
-        <span >username: editor</span>
+      <div>
+        <span>username: editor</span>
         <span>password: editor</span>
         <span>role :1</span>
       </div>
       <div>
-        <span >username: reader</span>
+        <span>username: reader</span>
         <span>password: reader</span>
         <span>role :2</span>
       </div>
@@ -118,7 +117,7 @@ export default {
 };
 </script>
 <style scoped>
-div span+span{
+div span + span {
   margin-left: 20px;
 }
 </style>

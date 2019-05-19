@@ -19,7 +19,7 @@
       >
         <template slot="title">
           <i :class="item.meta.icon"></i>
-          <span> {{ item.meta.title }}</span>
+          <span>{{ item.meta.title }}</span>
         </template>
         <!-- 递归 -->
         <sidebar-item
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style scoped>
-
-.title{
-  color:#fff;
-}</style>
+.title {
+  color: #fff;
+}
+</style>
